@@ -13,3 +13,15 @@ function woodCalculator(chair,table,bed){
     return totalWood;
 }
 
+
+function tinyFriend(names){
+    var friendsName = names[0];
+    for(var i=0; i<names.length; i++){
+        var currentName = names[i];
+        if(currentName.length <friendsName.length){
+            friendsName = currentName;
+        }
+    }
+    return friendsName;
+}
+
